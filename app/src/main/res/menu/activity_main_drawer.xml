@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_deptors"
+            android:icon="?android:attr/listChoiceIndicatorSingle"
+            android:title="dłużnicy" />
+        <item
+            android:id="@+id/my_depts"
+            android:icon="@android:drawable/btn_star"
+            android:title="moje długi" />
+        <item
+            android:id="@+id/all_depts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="wszystko" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contacts"
+                android:icon="@drawable/ic_menu_share"
+                android:title="kontakty" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
